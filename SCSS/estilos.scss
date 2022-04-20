@@ -1,0 +1,37 @@
+@import "tipografia";
+@import "estructura";
+
+body{
+    background-color: bisque;
+}
+header{
+    text-align: center;
+}
+.header_portada{
+    width: 550px;
+}
+ul{
+    list-style: none;
+    li{
+        padding: 15px;
+        display: inline-block;
+        a{
+        text-decoration: none;
+        font-size: 16px;
+        color: brown;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+        }
+    }
+}
+main{
+    text-align: center;
+}
+.redes{
+    text-align: center;
+    img{
+        width: 80px;
+        }
+}
